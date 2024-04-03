@@ -17,7 +17,7 @@ public class OrderPage {
     //Поле Имя
     private By nameField = By.xpath(".//input[@placeholder='* Имя']");
     //Поле Фамилия
-    private By surnameField = By.xpath(".//input[@placeholder='* Фамилия']");;
+    private By surnameField = By.xpath(".//input[@placeholder='* Фамилия']");
     //Поле Адрес
     private By adressField = By.xpath(".//input[@placeholder='* Адрес: куда привезти заказ']");
     //Поле Станция метро
@@ -129,19 +129,5 @@ public class OrderPage {
         clickYesButton();
         checkOrderSuccess();
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 }
